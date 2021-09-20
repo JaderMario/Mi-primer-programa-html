@@ -10,9 +10,9 @@
     <body>
         <h1>Desarrollo web UTP</h1>
         <h2>Septiembre/01/2021</h2>
-        <hr>
+        <hr>                                                           <!--hr se usa para crear nueva sección-->
 
-        <p>Esta es la cuarta clase del ciclo tres y se dictó el primero de septiembre <br> 
+        <p>Esta es la cuarta clase del ciclo tres y se dictó el primero de septiembre <br>    
             del año 2021, en donde se empieza a explicar los inicios con html.
         </p>
 
@@ -29,8 +29,8 @@
             <input type="submit" value="Solicitar">
         </form>
 
-        <p class="p">CSS</p>
-        <hr>
+        <p class="p">CSS</p>             <!--p class = "p"> se hace para que el parrafo herede características-->
+        <hr>                   
 
         <h3>Qué podemos hacer con JavaScript?</h3> 
         <p3>JavaScript puede cambiar los atributos en HTML.</p3>
@@ -46,7 +46,17 @@
         <button
             onclick="document.getElementById('myImage').src='image/zapato negro.jpg'">Zapato negro  <!--Botón  Zapato negro-->
         </button>
+        <br>
 
+        <p5 id="demo">JavaScript puede ocultar o mostrar elementos.</p5> 
+
+        <!-- Ocultar --> 
+        <button type="button" onclick="document.getElementById('demo').style.display='none'">Oculta!
+        </button> 
+
+        <!-- Mostrar --> 
+        <button type="button" onclick="document.getElementById('demo').style.display='block'">Muestra!
+        </button>
 
     </body>
 </html>
